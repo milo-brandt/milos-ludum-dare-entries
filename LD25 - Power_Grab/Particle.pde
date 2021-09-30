@@ -1,0 +1,3 @@
+interface Particle{
+  boolean render();
+}

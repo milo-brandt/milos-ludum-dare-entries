@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262F396817CC2E8100609B21 /* sfml-audio.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 267F05FE17C85B7600A86736 /* sfml-audio.framework */; };
+		262F396917CC2E8100609B21 /* sfml-graphics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 267F05FF17C85B7600A86736 /* sfml-graphics.framework */; };
+		262F396A17CC2E8100609B21 /* sfml-network.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 267F060017C85B7600A86736 /* sfml-network.framework */; };
+		262F396B17CC2E8100609B21 /* sfml-system.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 267F060117C85B7600A86736 /* sfml-system.framework */; };
+		262F396C17CC2E8100609B21 /* sfml-window.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 267F060217C85B7600A86736 /* sfml-window.framework */; };
+		262F396D17CC2E8100609B21 /* SFML.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 267F060317C85B7600A86736 /* SFML.framework */; };
+		262F397017CC305D00609B21 /* Enemy.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 262F396E17CC303100609B21 /* Enemy.png */; };
+		267F05F617C85AE400A86736 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 267F05F517C85AE400A86736 /* main.cpp */; };
+		267F05F817C85AE400A86736 /* Mississippi10.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 267F05F717C85AE400A86736 /* Mississippi10.1 */; };
+		267F060417C85B7600A86736 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F05FE17C85B7600A86736 /* sfml-audio.framework */; };
+		267F060517C85B7600A86736 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F05FF17C85B7600A86736 /* sfml-graphics.framework */; };
+		267F060617C85B7600A86736 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F060017C85B7600A86736 /* sfml-network.framework */; };
+		267F060717C85B7600A86736 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F060117C85B7600A86736 /* sfml-system.framework */; };
+		267F060817C85B7600A86736 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F060217C85B7600A86736 /* sfml-window.framework */; };
+		267F060917C85B7600A86736 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267F060317C85B7600A86736 /* SFML.framework */; };
+		267F060D17C96E6000A86736 /* vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 267F060C17C96E6000A86736 /* vector2.cpp */; };
+		267F060F17C973C000A86736 /* ninja.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 267F060E17C973C000A86736 /* ninja.cpp */; };
+		267F061217C97A9800A86736 /* gameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 267F061117C97A9800A86736 /* gameState.cpp */; };
+		267F061717CA58E800A86736 /* rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 267F061617CA58E800A86736 /* rectangle.cpp */; };
+		267F061C17CA800C00A86736 /* enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 267F061B17CA800C00A86736 /* enemy.cpp */; };
+		2687984C17CAFB8B00A00C19 /* ninjaRun1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2687984817CAF90B00A00C19 /* ninjaRun1.png */; };
+		2687984F17CBB08000A00C19 /* ninjaRun2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2687984D17CBB04A00A00C19 /* ninjaRun2.png */; };
+		2687985017CBB08300A00C19 /* ninjaRun3.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2687984E17CBB07100A00C19 /* ninjaRun3.png */; };
+		2687985617CBB55300A00C19 /* dust1.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2687985117CBB50800A00C19 /* dust1.png */; };
+		2687985717CBB55E00A00C19 /* dust2.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2687985217CBB50800A00C19 /* dust2.png */; };
+		2687985817CBB56200A00C19 /* dust3.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2687985317CBB50800A00C19 /* dust3.png */; };
+		2687985917CBB56500A00C19 /* dust4.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2687985417CBB50800A00C19 /* dust4.png */; };
+		2687985A17CBB56800A00C19 /* dust5.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2687985517CBB50800A00C19 /* dust5.png */; };
+		2687985C17CBB8F800A00C19 /* ninjaRun4.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2687985B17CBB8F000A00C19 /* ninjaRun4.png */; };
+		2687985E17CBCB0700A00C19 /* spikes.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2687985D17CBCAF200A00C19 /* spikes.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		262F396717CC2E7800609B21 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				262F396817CC2E8100609B21 /* sfml-audio.framework in CopyFiles */,
+				262F396917CC2E8100609B21 /* sfml-graphics.framework in CopyFiles */,
+				262F396A17CC2E8100609B21 /* sfml-network.framework in CopyFiles */,
+				262F396B17CC2E8100609B21 /* sfml-system.framework in CopyFiles */,
+				262F396C17CC2E8100609B21 /* sfml-window.framework in CopyFiles */,
+				262F396D17CC2E8100609B21 /* SFML.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267F05EF17C85AE400A86736 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+				267F05F817C85AE400A86736 /* Mississippi10.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2687984B17CAFB2300A00C19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2687985A17CBB56800A00C19 /* dust5.png in CopyFiles */,
+				262F397017CC305D00609B21 /* Enemy.png in CopyFiles */,
+				2687985917CBB56500A00C19 /* dust4.png in CopyFiles */,
+				2687985C17CBB8F800A00C19 /* ninjaRun4.png in CopyFiles */,
+				2687985817CBB56200A00C19 /* dust3.png in CopyFiles */,
+				2687985717CBB55E00A00C19 /* dust2.png in CopyFiles */,
+				2687985617CBB55300A00C19 /* dust1.png in CopyFiles */,
+				2687985E17CBCB0700A00C19 /* spikes.png in CopyFiles */,
+				2687984C17CAFB8B00A00C19 /* ninjaRun1.png in CopyFiles */,
+				2687984F17CBB08000A00C19 /* ninjaRun2.png in CopyFiles */,
+				2687985017CBB08300A00C19 /* ninjaRun3.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		262F396E17CC303100609B21 /* Enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Enemy.png; path = Mississippi10/Enemy.png; sourceTree = "<group>"; };
+		267F05F117C85AE400A86736 /* Mississippi10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mississippi10; sourceTree = BUILT_PRODUCTS_DIR; };
+		267F05F517C85AE400A86736 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		267F05F717C85AE400A86736 /* Mississippi10.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Mississippi10.1; sourceTree = "<group>"; };
+		267F05FE17C85B7600A86736 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "Library/Frameworks/sfml-audio.framework"; sourceTree = DEVELOPER_DIR; };
+		267F05FF17C85B7600A86736 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "Library/Frameworks/sfml-graphics.framework"; sourceTree = DEVELOPER_DIR; };
+		267F060017C85B7600A86736 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "Library/Frameworks/sfml-network.framework"; sourceTree = DEVELOPER_DIR; };
+		267F060117C85B7600A86736 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "Library/Frameworks/sfml-system.framework"; sourceTree = DEVELOPER_DIR; };
+		267F060217C85B7600A86736 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "Library/Frameworks/sfml-window.framework"; sourceTree = DEVELOPER_DIR; };
+		267F060317C85B7600A86736 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = Library/Frameworks/SFML.framework; sourceTree = DEVELOPER_DIR; };
+		267F060A17C85CF000A86736 /* ninja.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ninja.h; sourceTree = "<group>"; };
+		267F060B17C96D6E00A86736 /* vector2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector2.h; sourceTree = "<group>"; };
+		267F060C17C96E6000A86736 /* vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector2.cpp; sourceTree = "<group>"; };
+		267F060E17C973C000A86736 /* ninja.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ninja.cpp; sourceTree = "<group>"; };
+		267F061017C975DF00A86736 /* gameState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameState.h; sourceTree = "<group>"; };
+		267F061117C97A9800A86736 /* gameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gameState.cpp; sourceTree = "<group>"; };
+		267F061317CA547900A86736 /* rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rectangle.h; sourceTree = "<group>"; };
+		267F061617CA58E800A86736 /* rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rectangle.cpp; path = ../rectangle.cpp; sourceTree = "<group>"; };
+		267F061817CA7D7C00A86736 /* enemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enemy.h; sourceTree = "<group>"; };
+		267F061B17CA800C00A86736 /* enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = enemy.cpp; path = ../enemy.cpp; sourceTree = "<group>"; };
+		2687984817CAF90B00A00C19 /* ninjaRun1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ninjaRun1.png; path = Mississippi10/ninjaRun1.png; sourceTree = "<group>"; };
+		2687984D17CBB04A00A00C19 /* ninjaRun2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ninjaRun2.png; path = Mississippi10/ninjaRun2.png; sourceTree = "<group>"; };
+		2687984E17CBB07100A00C19 /* ninjaRun3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ninjaRun3.png; path = Mississippi10/ninjaRun3.png; sourceTree = "<group>"; };
+		2687985117CBB50800A00C19 /* dust1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dust1.png; path = Mississippi10/dust1.png; sourceTree = "<group>"; };
+		2687985217CBB50800A00C19 /* dust2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dust2.png; path = Mississippi10/dust2.png; sourceTree = "<group>"; };
+		2687985317CBB50800A00C19 /* dust3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dust3.png; path = Mississippi10/dust3.png; sourceTree = "<group>"; };
+		2687985417CBB50800A00C19 /* dust4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dust4.png; path = Mississippi10/dust4.png; sourceTree = "<group>"; };
+		2687985517CBB50800A00C19 /* dust5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dust5.png; path = Mississippi10/dust5.png; sourceTree = "<group>"; };
+		2687985B17CBB8F000A00C19 /* ninjaRun4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ninjaRun4.png; path = Mississippi10/ninjaRun4.png; sourceTree = "<group>"; };
+		2687985D17CBCAF200A00C19 /* spikes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spikes.png; path = Mississippi10/spikes.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		267F05EE17C85AE400A86736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267F060417C85B7600A86736 /* sfml-audio.framework in Frameworks */,
+				267F060517C85B7600A86736 /* sfml-graphics.framework in Frameworks */,
+				267F060617C85B7600A86736 /* sfml-network.framework in Frameworks */,
+				267F060717C85B7600A86736 /* sfml-system.framework in Frameworks */,
+				267F060817C85B7600A86736 /* sfml-window.framework in Frameworks */,
+				267F060917C85B7600A86736 /* SFML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267F05E617C85AE400A86736 = {
+			isa = PBXGroup;
+			children = (
+				2687984A17CAFABD00A00C19 /* Resource */,
+				267F05FE17C85B7600A86736 /* sfml-audio.framework */,
+				267F05FF17C85B7600A86736 /* sfml-graphics.framework */,
+				267F060017C85B7600A86736 /* sfml-network.framework */,
+				267F060117C85B7600A86736 /* sfml-system.framework */,
+				267F060217C85B7600A86736 /* sfml-window.framework */,
+				267F060317C85B7600A86736 /* SFML.framework */,
+				267F05F417C85AE400A86736 /* Mississippi10 */,
+				267F05F217C85AE400A86736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		267F05F217C85AE400A86736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				267F05F117C85AE400A86736 /* Mississippi10 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		267F05F417C85AE400A86736 /* Mississippi10 */ = {
+			isa = PBXGroup;
+			children = (
+				267F05F517C85AE400A86736 /* main.cpp */,
+				267F061017C975DF00A86736 /* gameState.h */,
+				267F061117C97A9800A86736 /* gameState.cpp */,
+				267F061817CA7D7C00A86736 /* enemy.h */,
+				267F061B17CA800C00A86736 /* enemy.cpp */,
+				267F060A17C85CF000A86736 /* ninja.h */,
+				267F060E17C973C000A86736 /* ninja.cpp */,
+				267F060B17C96D6E00A86736 /* vector2.h */,
+				267F060C17C96E6000A86736 /* vector2.cpp */,
+				267F061317CA547900A86736 /* rectangle.h */,
+				267F061617CA58E800A86736 /* rectangle.cpp */,
+				267F05F717C85AE400A86736 /* Mississippi10.1 */,
+			);
+			path = Mississippi10;
+			sourceTree = "<group>";
+		};
+		2687984A17CAFABD00A00C19 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				262F396E17CC303100609B21 /* Enemy.png */,
+				2687985D17CBCAF200A00C19 /* spikes.png */,
+				2687985B17CBB8F000A00C19 /* ninjaRun4.png */,
+				2687985117CBB50800A00C19 /* dust1.png */,
+				2687985217CBB50800A00C19 /* dust2.png */,
+				2687985317CBB50800A00C19 /* dust3.png */,
+				2687985417CBB50800A00C19 /* dust4.png */,
+				2687985517CBB50800A00C19 /* dust5.png */,
+				2687984E17CBB07100A00C19 /* ninjaRun3.png */,
+				2687984D17CBB04A00A00C19 /* ninjaRun2.png */,
+				2687984817CAF90B00A00C19 /* ninjaRun1.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		267F05F017C85AE400A86736 /* Mississippi10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267F05FB17C85AE400A86736 /* Build configuration list for PBXNativeTarget "Mississippi10" */;
+			buildPhases = (
+				267F05ED17C85AE400A86736 /* Sources */,
+				267F05EE17C85AE400A86736 /* Frameworks */,
+				267F05EF17C85AE400A86736 /* CopyFiles */,
+				2687984B17CAFB2300A00C19 /* CopyFiles */,
+				262F395F17CC2DD400609B21 /* Resources */,
+				262F396717CC2E7800609B21 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mississippi10;
+			productName = Mississippi10;
+			productReference = 267F05F117C85AE400A86736 /* Mississippi10 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		267F05E817C85AE400A86736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 267F05EB17C85AE400A86736 /* Build configuration list for PBXProject "Mississippi10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 267F05E617C85AE400A86736;
+			productRefGroup = 267F05F217C85AE400A86736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				267F05F017C85AE400A86736 /* Mississippi10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		262F395F17CC2DD400609B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		267F05ED17C85AE400A86736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267F05F617C85AE400A86736 /* main.cpp in Sources */,
+				267F060D17C96E6000A86736 /* vector2.cpp in Sources */,
+				267F060F17C973C000A86736 /* ninja.cpp in Sources */,
+				267F061217C97A9800A86736 /* gameState.cpp in Sources */,
+				267F061717CA58E800A86736 /* rectangle.cpp in Sources */,
+				267F061C17CA800C00A86736 /* enemy.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		267F05F917C85AE400A86736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		267F05FA17C85AE400A86736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		267F05FC17C85AE400A86736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		267F05FD17C85AE400A86736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267F05EB17C85AE400A86736 /* Build configuration list for PBXProject "Mississippi10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267F05F917C85AE400A86736 /* Debug */,
+				267F05FA17C85AE400A86736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267F05FB17C85AE400A86736 /* Build configuration list for PBXNativeTarget "Mississippi10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267F05FC17C85AE400A86736 /* Debug */,
+				267F05FD17C85AE400A86736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 267F05E817C85AE400A86736 /* Project object */;
+}
